@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/suvarna_logo.png";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -13,22 +14,47 @@ const Header = () => {
 
         <nav class="navbar">
           <div class="container-fluid">
-            <a href="#skills" class="btn-custom">
+            <Link
+              to="skills"
+              smooth={true}
+              duration={100}
+              className="btn-custom"
+            >
               {" "}
               Skills{" "}
-            </a>
-            <a href="#work-experience" class="btn-custom">
+            </Link>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={100}
+              className="btn-custom"
+            >
               Work Experience
-            </a>
-            <a href="#projects" class="btn-custom">
+            </Link>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={100}
+              className="btn-custom"
+            >
               Projects
-            </a>
-            <a href="#" class="btn-custom">
+            </Link>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={100}
+              className="btn-custom"
+            >
               Blogs
-            </a>
-            <a href="#" class="btn-custom">
+            </Link>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={100}
+              className="btn-custom"
+            >
               Contact Me!
-            </a>
+            </Link>
           </div>
         </nav>
       </div>
